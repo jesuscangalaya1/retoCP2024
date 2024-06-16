@@ -42,7 +42,9 @@ Este proyecto es una API REST desarrollada para gestionar productos y pedidos. I
 
 ## Despliegue en Render
 
-La API está desplegada en Render y se puede acceder a través de la siguiente URL:
+⚠️⚠️ **NOTA IMPORTANTE:** ⚠️⚠️
+
+Por favor, espera 2 o 3 minutos si el siguiente enlace no funciona de inmediato. Esto puede ocurrir debido a que el servidor se está redesplegando por inactividad en Render.
 
 - [Swagger UI](https://retocp2024-fqf0.onrender.com/swagger-ui/index.html)
   `https://retocp2024-fqf0.onrender.com/swagger-ui/index.html`
@@ -55,6 +57,10 @@ La documentación completa de la API está disponible en Swagger. Puedes utiliza
 ### 1. Acceder a Swagger UI
 
 Visita la siguiente URL para acceder a Swagger UI:
+
+⚠️⚠️ **NOTA IMPORTANTE:** ⚠️⚠️
+
+Por favor, espera 2 o 3 minutos si el siguiente enlace no funciona de inmediato. Esto puede ocurrir debido a que el servidor se está redesplegando por inactividad en Render.
 
 - [Swagger UI](https://retocp2024-fqf0.onrender.com/swagger-ui/index.html)
   `https://retocp2024-fqf0.onrender.com/swagger-ui/index.html`

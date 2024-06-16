@@ -90,13 +90,13 @@ public class ProductController {
                 String.valueOf(HttpStatus.OK), MESSAGE_ID_PRODUCT + id + SUCCESS_DELETED);
     }
 
-    @Operation(summary = "Export en PDF o EXCEL",
-            description = "Exporta la lista de productos en formato PDF o EXCEL, Ejemplo: digitar ´PDF´ o ´EXCEL´ como quieras menusculas o mayusculas.")
-    @GetMapping(value = "/export-PDF-EXCEL", produces = MediaType.APPLICATION_JSON_VALUE)
+    @Operation(summary = "Export en PDF",
+            description = "Exporta la lista de productos en formato PDF, Ejemplo: digitar ´PDF´ como quieras menusculas o mayusculas.")
+    @GetMapping(value = "/export-PDF", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<Resource> exportsFlights(
             @RequestParam(value = "pageNo", defaultValue = NUMERO_DE_PAGINA_POR_DEFECTO, required = false) int pageNumber,
             @RequestParam(value = "pageSize", defaultValue = MEDIDA_DE_PAGINA_POR_DEFECTO, required = false) int pageSize,
-            @RequestParam(value = "format", defaultValue = FORMATO_EXCEL_ABREVIATURA) @NotBlank String format,
+            @RequestParam(value = "format", defaultValue = FORMATO_PDF_ABREVIATURA) @NotBlank String format,
             @RequestParam(value = "ordenarPor", defaultValue = ORDENAR_POR_DEFECTO) String ordenarPor,
             @RequestParam(value = "sortDir", defaultValue = ORDENAR_DIRECCION_POR_DEFECTO) String sortDir)
             throws Exception {

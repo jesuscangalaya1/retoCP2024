@@ -35,7 +35,7 @@ Este proyecto es una API REST desarrollada para gestionar productos y pedidos. I
 - Uso de `MapStruct` para mapear entidades a DTOs.
 - Uso de `Lombok` para reducir la cantidad de código.
 - Manejo de `constantes` en una clase de utilidad.
-- Exportacion de productos a un archivo `EXCEL` o `PDF`.
+- Exportacion de productos a un archivo `PDF`.
 - Implementación de `excepciones` personalizadas.
 - Implementación de eliminación lógica.
 - Uso de Dto's.

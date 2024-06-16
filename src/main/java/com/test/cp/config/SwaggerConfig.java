@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @OpenAPIDefinition(
         info = @Info(
-                title = "${open_api.tittle}",
+                title = "${open_api.title}",
                 description = "${open_api.description}",
                 contact = @Contact(
                         name = "${open_api.contact.name}",

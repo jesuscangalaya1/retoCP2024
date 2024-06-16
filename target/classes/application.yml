@@ -21,10 +21,10 @@ open_api:
     email: jesuscangalaya1@gmail.com
   servers:
     local:
-      url: http://render:8080
+      url: https://retocp2024-fqf0.onrender.com
       description: Deploy in Render
     production:
-      url: https://miempresa.comm
+      url: https://retocp2024-fqf0.onrender.com
       description: Productive Environment
 
 #security
